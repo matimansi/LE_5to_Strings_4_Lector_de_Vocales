@@ -1,11 +1,4 @@
 
-/*
-	Escribir un programa que lea 20 caracteres.
-	Luego de la lectura indicar cuantas "a" se ingresaron,cuantas "e, i, o, u".
-
-	>>> TERMINADO <<<
-*/
-
 #include <stdio.h>
 #define LIM 20
 #define LIM_FGETS 21		// Pemite que el verdadero limite del string ingresado sea LIM, ya que LIM_FGETS reserva una posicion para el NULL o '\0'
@@ -32,7 +25,7 @@ int main()
 	}									// se imprimia un carater no esperado (¶)
 	printf("\n");
 	Lector_Vocales (string);
-    return 0;
+	return 0;
 }
 
 void Lector_Vocales (char string[LIM])
